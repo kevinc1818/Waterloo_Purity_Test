@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waterloo Purity Test</title>
+    <style>
+        body {
+            background-color: beige;
+            /* background-image: url('goose 3.jpg');
+            background-size: 150px; */
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="score"></h1>
+    <script>
+        document.getElementById("score").innerHTML = "Your score was " + localStorage.getItem("score");
+    </script>
+</body>
+</html>
