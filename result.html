@@ -15,9 +15,9 @@
     </style>
 </head>
 <body>
-    <h1 id="score"></h1>
+    <center><h1 id="score"></h1></center>
     <script>
-        document.getElementById("score").innerHTML = "Your score was " + localStorage.getItem("score");
+        document.getElementById("score").innerHTML = "Your score was " + (50 - localStorage.getItem("score"));
     </script>
 </body>
 </html>
